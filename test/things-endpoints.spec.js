@@ -177,7 +177,7 @@ describe('Things Endpoints', function() {
         )
       )
 
-      it.only('responds with 200 and the specified reviews', () => {
+      it('responds with 200 and the specified reviews', () => {
         const thingId = 1
         const expectedReviews = helpers.makeExpectedThingReviews(
           testUsers, thingId, testReviews
