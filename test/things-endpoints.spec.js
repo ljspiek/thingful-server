@@ -44,6 +44,7 @@ describe('Things Endpoints', function() {
           testReviews,
         )
       )
+      // console.log('TESTING ', testReviews)
 
       it('responds with 200 and all of the things', () => {
         const expectedThings = testThings.map(thing =>
